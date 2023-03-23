@@ -26,4 +26,6 @@
 html,
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-block: 100px;
 }

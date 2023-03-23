@@ -60,7 +60,7 @@ const Header = () => {
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#contact"
             className="text-black font-commissioner text-lg md:text-base font-medium"
           >
             Contact us
