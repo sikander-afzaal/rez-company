@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="wrapper  py-[40px]  isolate md:py-[90px] relative">
+    <div className="wrapper mt-[90px] md:mt-[123px]  py-[40px]  isolate md:py-[90px] relative">
       <div className="shadowPurple top-0 left-0 -translate-x-[20%]"></div>
       <div className="shadowPurple top-0 right-0"></div>
       <div className="shadowPurple top-full left-0 -translate-y-1/2 -translate-x-[20%]"></div>

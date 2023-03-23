@@ -3,7 +3,7 @@ import { useState } from "react";
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
   return (
-    <header className="bg-white wrapper sticky z-50 top-0 left-0">
+    <header className="bg-white wrapper fixed z-50 top-0 left-0">
       {headerToggle && (
         <div
           onClick={() => setHeaderToggle(false)}

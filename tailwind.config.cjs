@@ -17,6 +17,7 @@ module.exports = {
         shadowPurple: "#6B00FF1A",
         shadowRed: "#FF00001A",
         shadowCyan: "#00CAFF26",
+        footer: "#FFF8DB",
       },
       boxShadow: {
         contactForm: "0px 20px 50px rgba(0, 0, 0, 0.06)",

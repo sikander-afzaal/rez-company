@@ -23,6 +23,7 @@
     @apply bg-redOrange border-redOrange hover:bg-white text-white border-2 border-solid hover:text-redOrange font-semibold transition-all duration-300 rounded-[5px];
   }
 }
-html {
+html,
+body {
   overflow-x: hidden;
 }
