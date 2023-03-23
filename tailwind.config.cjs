@@ -10,7 +10,13 @@ module.exports = {
       },
       colors: {
         redOrange: "#FF3131",
+        dark: "#35363A",
+        darker: "#03091C",
+        gray: "#DCDCE7",
         cream: "#FEFFEF",
+      },
+      boxShadow: {
+        contactForm: "0px 20px 50px rgba(0, 0, 0, 0.06)",
       },
     },
   },

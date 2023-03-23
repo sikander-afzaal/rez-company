@@ -11,6 +11,6 @@
     @apply flex w-[90%] max-w-[1600px];
   }
   .ctaBtn {
-    @apply bg-redOrange border-redOrange hover:bg-white text-white border-2 border-solid hover:text-redOrange transition-all duration-300 rounded-[5px] font-medium text-base;
+    @apply bg-redOrange border-redOrange hover:bg-white text-white border-2 border-solid hover:text-redOrange font-semibold transition-all duration-300 rounded-[5px];
   }
 }

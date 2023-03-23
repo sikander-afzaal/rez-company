@@ -7,7 +7,7 @@ const Hero = () => {
           className="left-0 md:block hidden top-[16%] object-contain max-w-full -z-10 pointer-events-none absolute"
           alt=""
         />
-        <h1 className="font-medium leading-[1.4] text-2xl sm:text-[30px] md:text-[40px] xl:text-[54px] text-black text-center xl:max-w-[880px]">
+        <h1 className="font-medium leading-[1.4] font-semibold text-2xl sm:text-[30px] md:text-[40px] xl:text-[54px] text-black text-center xl:max-w-[880px]">
           One stop shop for all residential service needs
         </h1>
         <p className="w-full max-w-[880px] leading-[1.5] font-medium text-base md:text-xl xl:text-[25px] text-black text-center">

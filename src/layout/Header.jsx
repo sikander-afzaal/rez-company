@@ -69,7 +69,7 @@ const Header = () => {
             <a href="#" className="text-black font-medium text-base">
               Sign up
             </a>
-            <button className="ctaBtn py-2 lg:py-3 px-6 lg:px-10">
+            <button className="ctaBtn text-base py-2 lg:py-3 px-6 lg:px-10">
               Sign in
             </button>
           </div>
@@ -94,7 +94,9 @@ const Header = () => {
           <a href="#" className="text-black font-medium text-base">
             Sign up
           </a>
-          <button className="ctaBtn py-2 lg:py-3 px-6 lg:px-10">Sign in</button>
+          <button className="ctaBtn text-base py-2 lg:py-3 px-6 lg:px-10">
+            Sign in
+          </button>
         </div>
       </div>
     </header>
