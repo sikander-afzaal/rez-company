@@ -1,13 +1,20 @@
 const Hero = () => {
   return (
-    <div className="wrapper bg-[#6B00FF1A] py-[40px] md:py-[90px]">
+    <div className="wrapper  py-[40px]  isolate md:py-[90px] relative">
+      <div className="shadowPurple top-0 left-0 -translate-x-[20%]"></div>
+      <div className="shadowPurple top-0 right-0"></div>
+      <div className="shadowPurple top-full left-0 -translate-y-1/2 -translate-x-[20%]"></div>
+      <div className="shadowRed top-full right-0 -translate-y-1/2 translate-x-[20%]"></div>
+      <div className="shadowPurple top-[40%] -translate-y-1/2 right-0  translate-x-[20%]"></div>
+      <div className="shadowCyan top-full left-1/2 -translate-y-1/2 -translate-x-1/2"></div>
+      <div className="shadowCyan top-0 left-[60%] -translate-y-[80%] -translate-x-1/2"></div>
       <div className="contain relative isolate  flex-col gap-4 sm:gap-6 xl:gap-10 justify-center items-center">
         <img
           src="/plane.png"
           className="left-0 md:block hidden top-[16%] object-contain max-w-full -z-10 pointer-events-none absolute"
           alt=""
         />
-        <h1 className="font-medium leading-[1.4] font-semibold text-2xl sm:text-[30px] md:text-[40px] xl:text-[54px] text-black text-center xl:max-w-[880px]">
+        <h1 className=" leading-[1.4] font-semibold text-2xl sm:text-[30px] md:text-[40px] xl:text-[54px] text-black text-center xl:max-w-[880px]">
           One stop shop for all residential service needs
         </h1>
         <p className="w-full max-w-[880px] leading-[1.5] font-medium text-base md:text-xl xl:text-[25px] text-black text-center">

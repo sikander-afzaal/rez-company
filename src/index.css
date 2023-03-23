@@ -10,7 +10,19 @@
   .contain {
     @apply flex w-[90%] max-w-[1600px];
   }
+  .shadowPurple {
+    @apply bg-shadowPurple blur-[248px] w-full max-w-[458px] aspect-square absolute -z-10;
+  }
+  .shadowRed {
+    @apply bg-shadowRed blur-[248px] w-full max-w-[458px] aspect-square absolute -z-10;
+  }
+  .shadowCyan {
+    @apply bg-shadowCyan blur-[248px] w-full max-w-[458px] aspect-square absolute -z-10;
+  }
   .ctaBtn {
     @apply bg-redOrange border-redOrange hover:bg-white text-white border-2 border-solid hover:text-redOrange font-semibold transition-all duration-300 rounded-[5px];
   }
+}
+html {
+  overflow-x: hidden;
 }

@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <>
       <Hero />
-      <div className="flex justify-start items-center flex-col gap-[80px] lg:gap-[150px] pb-[60px] pt-[100px] lg:py-[150px]">
+      <div className="flex justify-start items-center flex-col gap-[80px] lg:gap-[150px] pb-[60px] pt-[100px] lg:py-[150px] ">
         <ServiceRow
           img="/service1.png"
           desc="Lorem ipsum dolor sit amet, con adipiscing elit. Sed at metus nonligula egestas facilisis id a est. Nam eu tellus eget velit dignissim scelerisque. In aliquam faucibus odio "

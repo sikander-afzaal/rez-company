@@ -1,6 +1,8 @@
 const ServiceRow = ({ img, title, desc, list, order, sub, ico }) => {
   return (
-    <div className="wrapper">
+    <div className="wrapper relative isolate">
+      <div className="shadowRed top-full -translate-y-1/2 left-0 -translate-x-[20%]"></div>
+      <div className="shadowPurple top-full  -translate-y-1/2 right-0 translate-x-[20%]"></div>
       <div
         className={`contain justify-between ${
           order ? "lg:flex-row-reverse flex-col" : "lg:flex-row flex-col"
