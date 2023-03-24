@@ -73,7 +73,7 @@ const Hero = () => {
             </h3>
           </div>
           <img
-            src="/hero.png"
+            src="/hero.webp"
             className="max-w-[500px] xl:w-auto w-full xl:max-w-full object-contain"
             alt=""
           />
