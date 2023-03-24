@@ -12,7 +12,7 @@ const Header = () => {
       )}
       <div className="contain h-auto py-5 md:p-0 md:h-[123px] justify-between items-center">
         <img
-          src="/logo.png"
+          src="/logo.webp"
           className="w-[100px] md:w-[120px] object-contain"
           alt=""
         />

@@ -12,14 +12,14 @@ const Index = () => {
           desc="Lorem ipsum dolor sit amet, con adipiscing elit. Sed at metus nonligula egestas facilisis id a est. Nam eu tellus eget velit dignissim scelerisque. In aliquam faucibus odio "
           title="Your Food delivery service for older person"
           sub="Food Delivery"
-          ico="/delivery-ico.png"
+          ico="/delivery-ico.webp"
         />
         <ServiceRow
           img="/service2.webp"
           desc="Lorem ipsum dolor sit amet, con adipiscing elit. Sed at metus nonligula egestas facilisis id a est. Nam eu tellus eget velit dignissim scelerisque. In aliquam faucibus odio "
           title="Your House keeping and home care for older person"
           sub="House keeping and home care"
-          ico="/care-ico.png"
+          ico="/care-ico.webp"
           order
         />
         <ServiceRow
@@ -27,14 +27,14 @@ const Index = () => {
           desc="Lorem ipsum dolor sit amet, con adipiscing elit. Sed at metus nonligula egestas facilisis id a est. Nam eu tellus eget velit dignissim scelerisque. In aliquam faucibus odio "
           title="Your Transportation for older person"
           sub="Transportation"
-          ico="/transport-ico.png"
+          ico="/transport-ico.webp"
         />
         <ServiceRow
           img="/service4.webp"
           desc="Lorem ipsum dolor sit amet, con adipiscing elit. Sed at metus nonligula egestas facilisis id a est. "
           title="Your Personal care and home care for older person"
           sub="Personal care"
-          ico="/personal-ico.png"
+          ico="/personal-ico.webp"
           order
           list={[
             "❤️ Excellent Protection",

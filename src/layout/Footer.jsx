@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="wrapper bg-footer py-[20px] sm:py-[50px] mt-20">
       <div className="w-[90%] grid grid-cols-2 grid-rows-2 lg:flex max-w-[1600px] justify-between items-center lg:gap-0 gap-6 sm:gap-10 lg:items-end">
         <div className="flex justify-start sm:max-w-[300px] xl:max-w-[400px] items-center text-center lg:text-left lg:items-start flex-col gap-3">
-          <img src="/logo.png" className="w-[140px] object-contain" alt="" />
+          <img src="/logo.webp" className="w-[140px] object-contain" alt="" />
           <p className="text-black text-sm xl:text-xl mt-3 lg:mb-10">
             Creating Lasting Relationships Through Product Design and
             development.

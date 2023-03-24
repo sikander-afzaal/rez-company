@@ -10,7 +10,7 @@ const ServiceRow = ({ img, title, desc, list, order, sub, ico }) => {
       >
         <div className="relative isolate">
           <img
-            src="/dots.png"
+            src="/dots.webp"
             className={`max-w-[120px] xl:max-w-[170px] object-contain absolute -z-10 ${
               order
                 ? "right-0 sm:translate-x-[30%]"

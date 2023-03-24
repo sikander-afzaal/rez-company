@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="shadowCyan top-0 left-[60%] -translate-y-[80%] -translate-x-1/2"></div>
       <div className="contain relative isolate  flex-col gap-4 sm:gap-6 xl:gap-10 justify-center items-center">
         <img
-          src="/plane.png"
+          src="/plane.webp"
           className="left-0 md:block hidden top-[16%] object-contain max-w-full -z-10 pointer-events-none absolute"
           alt=""
         />
@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="w-full flex justify-center mt-6 sm:mt-10 items-center relative">
           <div className="z-10 left-1 md:left-[8%] top-[8%] flex justify-center items-center bg-cream sm:px-[30px] xl:px-[50px] px-5 py-4 sm:py-[22px] rounded-xl gap-[15px] absolute">
             <img
-              src="/care.png"
+              src="/care.webp"
               className="object-contain w-[25px] xl:w-[64px] sm:w-[30px] md:w-[40px]"
               alt=""
             />
@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
           <div className="z-10 left-1 md:left-[14%] bottom-[16%] sm:bottom-[8%] flex justify-center items-center bg-cream sm:px-[30px] xl:px-[50px] px-5 py-4 sm:py-[22px] rounded-xl gap-[15px] absolute">
             <img
-              src="/transport.png"
+              src="/transport.webp"
               className="object-contain w-[25px]  sm:w-[30px] md:w-[40px] xl:w-[64px]"
               alt=""
             />
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
           <div className="z-10 right-1 md:right-[17%] -top-[3%] flex justify-center items-center bg-cream sm:px-[30px] xl:px-[50px] px-5 py-4 sm:py-[22px] rounded-xl gap-[15px] absolute">
             <img
-              src="/food.png"
+              src="/food.webp"
               className="object-contain w-[25px] sm:w-[30px] md:w-[40px] xl:w-[64px]"
               alt=""
             />
@@ -54,7 +54,7 @@ const Hero = () => {
           </div>
           <div className="z-10 right-0 md:right-[4%] top-[50%] -translate-y-1/2 flex justify-center items-center bg-cream sm:px-[30px] xl:px-[50px] px-5 py-4 sm:py-[22px] rounded-xl gap-[15px] absolute">
             <img
-              src="/house-keeping.png"
+              src="/house-keeping.webp"
               className="object-contain w-[25px] sm:w-[30px] md:w-[40px] xl:w-[64px]"
               alt=""
             />
@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
           <div className="z-10 right-1 md:right-[15%] -bottom-[3%] flex justify-center items-center bg-cream sm:px-[30px] xl:px-[50px] px-5 py-4 sm:py-[22px] rounded-xl gap-[15px] absolute">
             <img
-              src="/health.png"
+              src="/health.webp"
               className="object-contain w-[25px] sm:w-[30px] md:w-[40px] xl:w-[53px]"
               alt=""
             />
