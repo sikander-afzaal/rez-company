@@ -10,12 +10,8 @@ const Header = () => {
           className="md:hidden block fixed top-0 left-0 w-full h-full bg-black opacity-60 z-[90]"
         ></div>
       )}
-      <div className="contain h-auto py-5 md:p-0 md:h-[123px] justify-between items-center">
-        <img
-          src="/logo.webp"
-          className="w-[100px] md:w-[120px] object-contain"
-          alt=""
-        />
+      <div className="contain  h-[80px] justify-between items-center">
+        <img src="/logo.webp" className="w-[100px] object-contain" alt="" />
         <nav
           className={`md:static z-[92] fixed top-0 w-full max-w-[450px] h-full md:w-auto md:max-w-none md:h-auto bg-white md:bg-transparent flex-col md:flex-row justify-start items-center sm:items-start px-[3rem] pt-[6rem] pb-[3rem] md:p-0 overflow-y-auto md:overflow-visible border-l-2 border-solid border-redOrange md:border-none flex md:justify-center md:items-center gap-8 md:gap-5 lg:gap-8 ${
             headerToggle ? "right-0" : "-right-[800px]"
