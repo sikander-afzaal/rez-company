@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="wrapper mt-[90px] md:mt-[123px]  py-[40px]  isolate md:py-[90px] relative">
+    <div className="wrapper pt-[100px] xl:pt-10   py-[40px]  isolate md:pb-[90px] relative">
       <div className="shadowPurple top-0 left-0 -translate-x-[20%]"></div>
       <div className="shadowPurple top-0 right-0"></div>
       <div className="shadowPurple top-full left-0 -translate-y-1/2 -translate-x-[20%]"></div>
@@ -14,7 +14,7 @@ const Hero = () => {
           className="left-0 md:block hidden top-[16%] object-contain max-w-full -z-10 pointer-events-none absolute"
           alt=""
         />
-        <div className="flex w-full max-w-[450px] justify-start items-center xl:items-start text-center xl:text-left flex-col gap-4">
+        <div className="flex w-full max-w-[450px] justify-start items-center xl:items-start text-center xl:text-left flex-col gap-5">
           <h1 className=" leading-[1.4] font-semibold text-[27px] sm:text-[35px] text-black  ">
             One stop shop for all residential service needs
           </h1>
@@ -22,9 +22,12 @@ const Hero = () => {
             We provide services for your elderly care that nurses don't provide.
             Eg meals, housekeeping, personal care, transportation, home health.
           </p>
+          <button className="ctaBtn w-[180px] sm:w-[250px] h-[55px] sm:h-[65px]">
+            Click for Support
+          </button>
         </div>
         <div className="w-full flex justify-center mt-6 sm:mt-10 items-center relative">
-          <div className="z-10 left-1 md:left-[8%] top-[8%] flex justify-center items-center sm:hidden bg-cream sm:px-[30px] xl:px-[50px] px-5 py-4 sm:py-[22px] rounded-xl gap-[15px] absolute">
+          {/* <div className="z-10 left-1 md:left-[8%] top-[8%] flex justify-center items-center sm:hidden bg-cream sm:px-[30px] xl:px-[50px] px-5 py-4 sm:py-[22px] rounded-xl gap-[15px] absolute">
             <img
               src="/care.webp"
               className="object-contain w-[25px] xl:w-[64px] sm:w-[30px] md:w-[40px]"
@@ -73,17 +76,17 @@ const Hero = () => {
             <h3 className="uppercase text-black text-xs sm:text-base md:text-xl xl:text-[30px] font-medium leading-[1]">
               Home Health
             </h3>
-          </div>
+          </div> */}
           <img
-            src="/hero.webp"
-            className="max-w-[800px] sm:block hidden w-full object-contain"
+            src="/hero.png"
+            className="max-w-[500px] xl:max-w-[800px]  w-full object-contain"
             alt=""
           />
-          <img
+          {/* <img
             src="/hero-mob.webp"
             className="max-w-[400px] sm:hidden block w-full object-contain"
             alt=""
-          />
+          /> */}
         </div>
       </div>
     </div>
